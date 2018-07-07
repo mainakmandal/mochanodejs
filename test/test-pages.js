@@ -12,7 +12,7 @@ describe('Status and content', function() {
 
         it('content', function(done) {
             request('http://localhost:8080/' , function(error, response, body) {
-                expect(body).to.equal('Hello World');
+                expect(body).to.equal('Hello World Testing');
                 done();
             });
         });
